@@ -24,6 +24,7 @@ h1 {
   margin-right: 32px;
 }
 
+/* Navigation */
 .nav-item {
   list-style: none;
   font-size: 20px;
@@ -43,6 +44,7 @@ h1 {
   border-bottom: 1px solid black;
  }
 
+/* Section Gallery */
 .gallery {
   padding: 0 16px;
 }
@@ -59,6 +61,44 @@ h1 {
   object-fit: cover;
 }
 
+.gallery-img:hover {
+  opacity: 0.9;
+}
+
 .gallery-title {
   font-weight: 300;
+}
+
+/* Section About */
+.about {
+  font-size: 40px;
+  width: 40%;
+  min-width: 600px;
+  margin: 64px 0 80px 80px;
+}
+
+.about-text {
+  margin-bottom: 25px;
+}
+
+.about-title {
+  font-weight: 300;
+  border-bottom: 1px solid black;
+  width: max-content;
+  padding-bottom: 8px;
+}
+
+/* Footer Contact Section */
+.contacts {
+  margin: 0 0 80px 80px;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+
+.contact-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
 }

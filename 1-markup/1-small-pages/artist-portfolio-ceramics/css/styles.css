@@ -7,17 +7,15 @@
 body {
   font-family: 'Cormorant', serif;
   font-weight: 300;
-  padding: 32px;
-
 }
 
 header {
-  margin-bottom: 32px;
+  margin: 32px;
 }
 
 h1,
 .nav,
-.nav li {
+.nav-item {
   display: inline-block;
 }
 
@@ -26,26 +24,41 @@ h1 {
   margin-right: 32px;
 }
 
-.nav li {
+.nav-item {
   list-style: none;
   font-size: 20px;
   margin-right: 16px;
 }
 
-.nav li:last-child {
+.nav-item:last-child {
   margin-right: 0;
 }
 
-.nav a {
+.nav-link {
   color:black;
   text-decoration: none;
  }
 
- a.active {
+ .nav-item .active {
   border-bottom: 1px solid black;
  }
 
+.gallery {
+  padding: 0 16px;
+}
+
+.gallery-card {
+  display: inline-block;
+  width: 49.75%;
+  padding: 16px;
+}
+
 .gallery-img {
-  width: 40%;
+  width: 100%;
   height: 300px;
+  object-fit: cover;
+}
+
+.gallery-title {
+  font-weight: 300;
 }

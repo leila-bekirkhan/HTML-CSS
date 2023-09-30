@@ -7,4 +7,35 @@
 body {
   font-family: 'Cormorant', serif;
   font-weight: 300;
+  padding: 32px;
 }
+
+h1,
+.nav,
+.nav li {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 300;
+  margin-right: 32px;
+}
+
+.nav li {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav a {
+  color:black;
+  text-decoration: none;
+ }
+
+ a.active {
+  border-bottom: 1px solid black;
+ }

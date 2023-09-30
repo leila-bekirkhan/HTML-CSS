@@ -1,1 +1,10 @@
-/* Font: Cormorant 300 weight */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cormorant', serif;
+  font-weight: 300;
+}

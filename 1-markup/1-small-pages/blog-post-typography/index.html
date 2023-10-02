@@ -11,45 +11,59 @@
     <title>Blog Post</title>
   </head>
 
-  <body>
-    
+  <body>    
 
-      <header>
-        <h1 class="header-title">A Blog Post</h1>
-        <p class="header-text">Typography is one of the most important elements of front end design and development! In this exercise, we'll play around with some of the common CSS properties to manage and style our fonts by making a nice blog post-like web page.</p>
-      </header>
+    <header>
+      <h1 class="header-title">A Blog Post</h1>
+      <p class="header-text">Typography is one of the most important elements of front end design and development! In this exercise, we'll play around with some of the common CSS properties to manage and style our fonts by making a nice blog post-like web page.</p>
+    </header>
 
-      <main>
-        <article class="container">
-          <p class="date-info">
-            <time datetime="2025-12-31">12.31.2050</time> |
-            <span class="reddish">All about CSS blog</span>
-          </p>
-          <h2 class="post-title">All About Typography</h2>
+    <main>
+      <article class="container">
+        <p class="date-info">
+          <time datetime="2025-12-31">12.31.2050</time> |
+          <span class="accent">All about CSS blog</span>
+        </p>
+        <h2 class="post-title">All About Typography</h2>
 
-          <section>
-            <h3 class="hidden">Heading of the section</h3>
-            <p class="headline">Headlines, like this one, are great ways to quickly capture the reader's attention, to give them a summary, intro, or other important information in a web page. You can use <span class="reddish">text-transform: uppercase;</span> to make a whole body of text uppercase using CSS if you really need to grab attention!</p>
-            <p>Okay, now that we're done screaming in the headline in all caps (which you should do sparingly) - it's time to chat more about other components of typography. You'll notice that we chose a nice serif font for our headings, and a nice sans-serif font for our body text. This is intentional! Serif font faces are generally considered pretty inaccessible as a body text style, since at smaller sizes it's much more difficult to visually differentiate the characters from one another. At large font sizes, such as those seen in most headings, serif fonts are considered fine, since the larger style makes it easier to see where serif characters start and where they end.</p>
-            <p>But wait! What if you want more than just normal text on your page? Another common thing you might see in web pages are quotes. To make quotes, we can use the <span class="reddish">blockquote</span> element and style it accordingly, so it stands out a bit as a non-body text quote.</p>            
-            <blockquote>
-              <q>This is a quote - you probably knew that at a glance since we gave it some nice styling. Pretty nice, huh? A great lesson in User Experience Design, where we take special care to implement our web page in a way that makes it pleasant and intuitive for our users/readers. Differentiating our different typography components visually makes information much more organized and easier to digest for our users.</q>
-              <cite>– A wise person</cite>
-            </blockquote>
-          </section>         
+        <section>
+          <h3 class="hidden">Heading of the section</h3>
+          <p class="headline">Headlines, like this one, are great ways to quickly capture the reader's attention, to give them a summary, intro, or other important information in a web page. You can use <span class="accent">text-transform: uppercase;</span> to make a whole body of text uppercase using CSS if you really need to grab attention!</p>
+          <p>Okay, now that we're done screaming in the headline in all caps (which you should do sparingly) - it's time to chat more about other components of typography. You'll notice that we chose a nice serif font for our headings, and a nice sans-serif font for our body text. This is intentional! Serif font faces are generally considered pretty inaccessible as a body text style, since at smaller sizes it's much more difficult to visually differentiate the characters from one another. At large font sizes, such as those seen in most headings, serif fonts are considered fine, since the larger style makes it easier to see where serif characters start and where they end.</p>
+          <p>But wait! What if you want more than just normal text on your page? Another common thing you might see in web pages are quotes. To make quotes, we can use the <span class="accent">blockquote</span> element and style it accordingly, so it stands out a bit as a non-body text quote.</p>            
+          <blockquote>
+            <q>This is a quote - you probably knew that at a glance since we gave it some nice styling. Pretty nice, huh? A great lesson in User Experience Design, where we take special care to implement our web page in a way that makes it pleasant and intuitive for our users/readers. Differentiating our different typography components visually makes information much more organized and easier to digest for our users.</q>
+            <cite>– A wise person</cite>
+          </blockquote>
+        </section> 
 
-          <section>
-            <h3>A new section</h3>
-          </section>
+        <hr class="section-hr">
 
-          <section>
-            <h3>Common font sizing approaches</h3>
-          </section>
+        <section>
+          <h3>A new section</h3>
+          <p>And just like that, we've got a new section of content separated by a <span class="accent">hr</span> element (a 'horizontal rule' or a divider) and a new heading. Isn't putting content together fun?</p>
+          <p>Notice as well that when we entered in the <span class="accent">H3</span> content, it was all lowercase, but now it's in a nice Title Case, where the first letter of each word is capitalized. We did that with CSS! Using <span class="accent">text-transform: capitalize;</span> we can implement title cased content.</p>
 
-        </article>
+          <div class="example-block">
+            <h4>Heading 4</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae est dapibus, viverra metus ac, fermentum libero. Integer lobortis enim ac arcu malesuada ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+            <h5>Heading 5</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae est dapibus, viverra metus ac, fermentum libero. Integer lobortis enim ac arcu malesuada ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+            <h6>Heading 6</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae est dapibus, viverra metus ac, fermentum libero. Integer lobortis enim ac arcu malesuada ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </section>
         
-      </main>
-      <footer></footer>
+        <section>
+          <h3>Common font sizing approaches</h3>
+        </section>
+
+      </article>      
+    </main>
+
+    <footer></footer>
 
   </body>
 

@@ -22,6 +22,11 @@ h6 {
 h3 {
   font-size: 38px;
   text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-bottom: 16px;
 }
 
 header {
@@ -34,13 +39,24 @@ header {
   padding: 0 32px;
 }
 
-.reddish {
+.accent {
   color: #e95400;
   font-weight: bold;
 }
 
 .hidden {
   display: none;
+}
+
+.section-hr {
+  margin-bottom: 40px;
+}
+
+.example-block {
+  margin: 0 auto;
+  width: 800px;
+  border: 2px solid #b08484;
+  padding: 15px;
 }
 
 .date-info {

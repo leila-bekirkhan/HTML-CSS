@@ -6,10 +6,38 @@
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 32px;
+  padding: 0 32px;
 }
 
 body {
   font-family: Mukta, sans-serif;
   font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Bitter, serif;
+}
+
+header {
+  height: 300px;
+}
+
+.date-info {
+  font-size: 14px;
+  font-family: Bitter, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 1.5px;
+}
+
+.date-title {
+  color: #e95400;
+  text-transform: uppercase;
 }

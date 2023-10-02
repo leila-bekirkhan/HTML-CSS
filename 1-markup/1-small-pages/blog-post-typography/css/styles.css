@@ -6,6 +6,7 @@
 body {
   font-family: Mukta, sans-serif;
   font-size: 16px;
+  color: #292929;
   letter-spacing: 0.5px;  
 }
 
@@ -48,14 +49,18 @@ header {
   display: none;
 }
 
+section {
+  margin-bottom: 40px;
+}
+
 .section-hr {
   margin-bottom: 40px;
 }
 
 .example-block {
-  margin: 0 auto;
-  width: 800px;
-  border: 2px solid #b08484;
+  border-right: 1px solid #e95400;
+  border-left: 1px solid #e95400;
+  border-radius: 5px;
   padding: 15px;
 }
 

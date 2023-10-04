@@ -1,6 +1,8 @@
 :root {
   --main-font-color: #292929;
+  --background-on-font-color: #fff;
   --accent-color: #e95400;
+  --background-color: linear-gradient(rgba(233, 84, 0, .6), rgba(208, 122, 106, 0.6));
 }
 
 * {
@@ -12,7 +14,7 @@ body {
   font-family: Mukta, sans-serif;
   font-size: 16px;
   color: var(--main-font-color);
-  letter-spacing: 0.5px;  
+  letter-spacing: 0.5px;
 }
 
 h1,
@@ -29,8 +31,12 @@ p {
   margin-bottom: 16px;
 }
 
-header {
+.header {
   height: 300px;
+  background: var(--background-color); 
+  margin-bottom: 60px;
+  color: var(--background-on-font-color);
+  text-align: center;
 }
 
 .header-title {
@@ -59,7 +65,7 @@ section {
 }
 
 .section-title {
-  font-size: 38px;  
+  font-size: 38px;
   letter-spacing: 0px;
   margin-bottom: 40px;
 }
@@ -101,7 +107,7 @@ section {
   width: 90%;
   margin: 0 auto;
   border-left: 1.5px solid var(--accent-color);
-  padding-left: 16px;  
+  padding-left: 16px;
 }
 
 .quote p {
@@ -132,7 +138,7 @@ section {
   margin-bottom: 0;
 }
 
-.example-element  {
+.example-element {
   margin-bottom: 20px;
 }
 
@@ -157,10 +163,27 @@ section {
 }
 
 .footer {
-  background-color: #e95400;
-  opacity: .6;
-  padding: 25px 0;
+  background: var(--background-color);
+  padding: 20px 0;
 }
 
+.footer-nav {
+  margin: 0 auto;
+}
 
+.footer-nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
 
+.footer-nav-link {
+  text-decoration: none;
+  color: var(--background-on-font-color);
+  font-size: 18px;
+}
+
+.footer-nav-link:hover {
+  text-decoration: underline;
+}

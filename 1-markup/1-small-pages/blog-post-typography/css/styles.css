@@ -20,21 +20,6 @@ h6 {
   font-weight: 500;
 }
 
-h4 {
-  font-size: 30px;
-  letter-spacing: 0.25px;
-}
-
-h5 {
-  font-size: 24px;
-  letter-spacing: 0.25px;
-}
-
-h6 {
-  font-size: 20px;
-  letter-spacing: 0.25px;
-}
-
 p {
   margin-bottom: 16px;
 }
@@ -138,10 +123,25 @@ section {
   padding: 15px;
 }
 
+.example-block :last-child {
+  margin-bottom: 0;
+}
+
 .example-element  {
   margin-bottom: 20px;
 }
 
-.example-block :last-child {
-  margin-bottom: 0;
+.example-title-l {
+  font-size: 30px;
+  letter-spacing: 0.25px;
+}
+
+.example-title-m {
+  font-size: 24px;
+  letter-spacing: 0.25px;
+}
+
+.example-title-s {
+  font-size: 20px;
+  letter-spacing: 0.25px;
 }

@@ -150,3 +150,17 @@ section {
   font-size: 20px;
   letter-spacing: 0.25px;
 }
+
+.section-subtitle {
+  font-size: 30px;
+  margin: 25px 0;
+}
+
+.footer {
+  background-color: #e95400;
+  opacity: .6;
+  padding: 25px 0;
+}
+
+
+

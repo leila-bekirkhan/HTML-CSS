@@ -92,6 +92,31 @@ section {
   margin-bottom: 40px;
 }
 
+.quote {
+  font-style: italic;
+  width: 90%;
+  margin: 0 auto;
+  border-left: 1.5px solid #e95400;
+  padding-left: 16px;  
+}
+
+.quote p {
+  margin-bottom: 0;
+}
+
+.quote p::before {
+  content: '\0022';
+}
+
+.quote p::after {
+  content: '\0022';
+}
+
+.quote cite {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
 .example-block {
   border-right: 1px solid #e95400;
   border-left: 1px solid #e95400;

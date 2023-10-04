@@ -1,3 +1,8 @@
+:root {
+  --main-font-color: #292929;
+  --accent-color: #e95400;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +11,7 @@
 body {
   font-family: Mukta, sans-serif;
   font-size: 16px;
-  color: #292929;
+  color: var(--main-font-color);
   letter-spacing: 0.5px;  
 }
 
@@ -41,7 +46,7 @@ header {
 }
 
 .accent {
-  color: #e95400;
+  color: var(--accent-color);
   font-weight: bold;
 }
 
@@ -95,7 +100,7 @@ section {
   font-style: italic;
   width: 90%;
   margin: 0 auto;
-  border-left: 1.5px solid #e95400;
+  border-left: 1.5px solid var(--accent-color);
   padding-left: 16px;  
 }
 
@@ -117,8 +122,8 @@ section {
 }
 
 .example-block {
-  border-right: 1px solid #e95400;
-  border-left: 1px solid #e95400;
+  border-right: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
   border-radius: 5px;
   padding: 15px;
 }

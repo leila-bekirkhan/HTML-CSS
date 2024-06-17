@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cormorant', serif;
+  font-weight: 300;
+}
+
+header {
+  margin: 32px;
+}
+
+h1,
+.nav,
+.nav-item {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 300;
+  margin-right: 32px;
+}
+
+/* Navigation */
+.nav-item {
+  list-style: none;
+  font-size: 20px;
+  margin-right: 16px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  color:black;
+  text-decoration: none;
+ }
+
+ .nav-item .active {
+  border-bottom: 1px solid black;
+ }
+
+/* Section Gallery */
+.gallery {
+  padding: 0 16px;
+}
+
+.gallery-card {
+  display: inline-block;
+  width: 49.75%;
+  padding: 16px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.gallery-img:hover {
+  opacity: 0.9;
+}
+
+.gallery-title {
+  font-weight: 300;
+}
+
+/* Section About */
+.about {
+  font-size: 40px;
+  width: 40%;
+  min-width: 600px;
+  margin: 64px 0 80px 80px;
+}
+
+.about-text {
+  margin-bottom: 25px;
+}
+
+.about-title {
+  font-weight: 300;
+  border-bottom: 1px solid black;
+  width: max-content;
+  padding-bottom: 8px;
+}
+
+/* Footer Contact Section */
+.contacts {
+  margin: 0 0 80px 80px;
+}
+
+.contact-list {
+  list-style-type: none;
+}
+
+.contact-link {
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+}
